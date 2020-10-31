@@ -1,0 +1,18 @@
+package collection.inicial;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AppCollection {
+
+			public static void main(String [] args) {
+				
+				List<String> maquillajes = new ArrayList<String>();
+				System.out.println(maquillajes.size());
+				maquillajes.add("rubor");
+				maquillajes.add("labial gloss");
+				maquillajes.add("lapiz");
+				System.out.println(maquillajes);	
+				
+			}
+}
